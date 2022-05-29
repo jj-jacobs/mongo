@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2><%=frog[0].name%></h2>
+    <h2><%=frog[0].age%></h2>
+    <h2><%=frog[0].glubs%></h2>
+    <form action="/frog/destroy/<%=frog[0].id%>" method="post">
+        <input type="submit" value="delete me (i sad now)"> 
+    </form> 
+</body>
+</html>
